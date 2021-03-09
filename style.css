@@ -3,6 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
 .siteTitle h2 {
   font-weight: 200;
   color: #4e1e5d;
@@ -78,9 +82,12 @@
   border-radius: 0px;
   font-weight: 200;
   padding: 10px 15px;
+  color: white;
+  
 }
 .btn:hover {
   background-color: #71467e;
+  color: white;
 }
 /* forthSection */
 .forthSection {
@@ -225,7 +232,7 @@
 }
 /* togglerMenu */
 .togglerMenu {
-  position: absolute;
+  position: sticky;
   top: 0%;
   left: 0%;
   display: flex;
@@ -237,19 +244,23 @@
   height: 100vh;
   display: none;
 }
+ 
 .closeIcon {
   position: absolute;
   top: 1%;
-  right: 2%;
+  right: 4%;
 }
 .closeIcon i {
   font-size: 31px;
-}
+  font-weight: 200;
+} 
 .togglerMenu ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 .togglerMenu ul li {
   list-style: none;
@@ -314,6 +325,7 @@
   }
   .firstHeading {
     font-size: 50px;
+      margin: 0px 0px;
   }
   .para {
     text-align: start;
@@ -401,6 +413,10 @@
   .fifthpara2 {
     font-size: 15px;
   }
+  .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 11px;
+  }
 }
 @media only screen and (max-width: 408px) {
   .firstHeading {
@@ -408,6 +424,10 @@
   }
   .comman {
     font-size: 15px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 7px;
+    height: 7px;
   }
 }
 @media only screen and (max-width: 325px) {
