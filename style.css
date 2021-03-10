@@ -7,10 +7,11 @@
   outline: none !important;
   box-shadow: none;
 }
-.siteTitle h2 {
+.siteTitle h2 a{
   font-weight: 200;
   color: #4e1e5d;
   cursor: pointer;
+  text-decoration: none;
 }
 /* navbar items */
 .navbar-light .navbar-nav .nav-link {
@@ -180,6 +181,9 @@
 .footer {
   margin-top: 5rem;
 }
+.socialIcon a {
+  color:black;
+}
 .socialIcon i {
   font-size: 20px;
   margin: 3px 10px;
@@ -247,7 +251,7 @@
  
 .closeIcon {
   position: absolute;
-  top: 1%;
+  top: 3%;
   right: 4%;
 }
 .closeIcon i {

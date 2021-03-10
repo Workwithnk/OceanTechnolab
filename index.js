@@ -14,7 +14,7 @@ togglerMenu.addEventListener('click',()=>{
     togglerMenu.style.display = 'none';
 });
 
-const togglerLi = document.querySelectorAll('.togglerMenu ul li');
-togglerLi.addEventListener('click',()=>{
-    togglerMenu.style.display = 'none';
-});
+const togglerA = document.querySelectorAll('.togglerA');
+ togglerA.addEventListener('click',()=>{
+     togglerMenu.style.display = 'none';
+ });
