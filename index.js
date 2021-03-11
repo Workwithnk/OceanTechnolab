@@ -15,11 +15,11 @@ togglerMenu.addEventListener('click',()=>{
 });
 
 const togglerA = document.querySelectorAll('.togglerA');
- togglerA.addEventListener('click',()=>{
-     togglerMenu.style.display = 'none';
- });
+console.log(togglerA);
+togglerA.forEach((item)=>{
+    item.addEventListener('click',()=>{
+        togglerMenu.style.display = 'none';
+    });   
+})
 
- const contactBtn = document.querySelector('.contactBtn');
- contactBtn.addEventListener('click',(e)=>{
-       e.preventDefault();
- });
+
