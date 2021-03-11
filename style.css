@@ -257,6 +257,7 @@
 .closeIcon i {
   font-size: 31px;
   font-weight: 200;
+  cursor: pointer;
 } 
 .togglerMenu ul {
   display: flex;
