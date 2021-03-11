@@ -18,3 +18,8 @@ const togglerA = document.querySelectorAll('.togglerA');
  togglerA.addEventListener('click',()=>{
      togglerMenu.style.display = 'none';
  });
+
+ const contactBtn = document.querySelector('.contactBtn');
+ contactBtn.addEventListener('click',(e)=>{
+       e.preventDefault();
+ });
