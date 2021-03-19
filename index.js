@@ -1,4 +1,4 @@
-console.log("this is nk");
+
 const togglerMenu = document.querySelector('.togglerMenu');
 
 const toggleMenu = document.querySelector('.toggleMenu');
@@ -15,11 +15,11 @@ togglerMenu.addEventListener('click',()=>{
 });
 
 const togglerA = document.querySelectorAll('.togglerA');
-console.log(togglerA);
 togglerA.forEach((item)=>{
     item.addEventListener('click',()=>{
         togglerMenu.style.display = 'none';
     });   
 })
+
 
 
